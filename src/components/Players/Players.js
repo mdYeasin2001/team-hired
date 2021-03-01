@@ -15,6 +15,7 @@ const Players = () => {
             setHiredPlayers([...hiredPlayers, player]);
         } else {
             // played will not hire again
+            alert('This player is already hired!');
         }
     }
     return (

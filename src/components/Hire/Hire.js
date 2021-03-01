@@ -12,7 +12,7 @@ const Hire = (props) => {
                 <ol>
                     {players.map((player, i) => <li key={i}>{player.name}</li>)}
                 </ol>
-                <h5>Total Budget: {totalBudget}</h5>
+                <h5>Total Budget: ${totalBudget}</h5>
             </div>
         </div>
     );
